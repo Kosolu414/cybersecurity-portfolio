@@ -19,12 +19,8 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 
 ## 🚀 Featured Projects
 
-### 1. Using the NIST cybersecurity framework to respond to a security incident
-* **Objective:** Set up a cloud-based SIEM to monitor and detect brute-force authentication attempts.
-* **Tools Used:** Azure, Sentinel SIEM, KQL (Kusto Query Language), Windows Event Logs.
-* **What I Did:** Deployed a vulnerable Windows VM (honeypot) in the cloud, mapped global RDP brute-force attacks via a live map, and wrote custom detection rules to alert on successful intrusions.
-* **[👉 View Project Details & Code](./project-link-or-folder)** ### 2. [Project Title - e.g., Network Traffic Analysis & Malware Triage]
-* **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side.
+### 1. [Project Title - e.g., Network Traffic Analysis & Malware Triage]
+* **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
 * **Tools Used:** Wireshark, NetworkMiner, VirusTotal.
 * **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
 * **[👉 View Full Write-up](./project-link-or-folder)**
