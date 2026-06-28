@@ -28,8 +28,8 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 ### 2. Using Linux commands to manage file permissions
 * **Objective:** Modify file permissions on standard and hidden files to enforce the principle of least privilege.
 * **Tools Used:** Linux (Ubuntu), Bash (CLI)
-* **What I Did:** x.
-* **[👉 View Full Write-up](./Managing Linux File Permissions & User Authorization)*** 
+* **What I Did:** Audited the file system, Provided a remedy for unauthorized access, Validation.
+* **[👉 View Full Write-up](./Managing_Linux_File_Permissions_and_User_Authorization)*** 
 
 ---
 
