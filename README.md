@@ -29,7 +29,7 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 * **Objective:** Modify file permissions on standard and hidden files to enforce the principle of least privilege.
 * **Tools Used:** Linux (Ubuntu), Bash (CLI)
 * **What I Did:** x.
-* **[👉 View Full Write-up](./project-link-or-folder)*** 
+* **[👉 View Full Write-up](./Managing Linux File Permissions & User Authorization)*** 
 
 ---
 
