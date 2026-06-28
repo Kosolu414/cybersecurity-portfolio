@@ -26,13 +26,13 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 * **[👉 View Full Write-up](./project-link-or-folder)**
 
 ### 2. Using Linux commands to manage file permissions
-* **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
-* **Tools Used:** Wireshark.
-* **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
+* **Objective:** Modify file permissions on standard and hidden files to enforce the principle of least privilege.
+* **Tools Used:** Linux (Ubuntu), Bash (CLI)
+* **What I Did:** x.
 * **[👉 View Full Write-up](./project-link-or-folder)*** 
 
 ---
 
 ## 📜 Certifications & Education
 * **CompTIA Security+** (In Progress)
-* **B.Sc. in Computer Science** - [Nnamdi Azikiwe University, Anambra, Nigeria.]
+* **B.Sc. in Computer Science** - Nnamdi Azikiwe University, Anambra, Nigeria.
