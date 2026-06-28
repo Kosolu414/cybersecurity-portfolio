@@ -19,11 +19,17 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 
 ## 🚀 Featured Projects
 
-### 1. [Project Title - e.g., Network Traffic Analysis & Malware Triage]
+### 1. Network Traffic Analysis & Malware Triage
 * **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
 * **Tools Used:** Wireshark.
 * **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
 * **[👉 View Full Write-up](./project-link-or-folder)**
+
+### 2. Using Linux commands to manage file permissions
+* **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
+* **Tools Used:** Wireshark.
+* **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
+* **[👉 View Full Write-up](./project-link-or-folder)*** 
 
 ---
 
