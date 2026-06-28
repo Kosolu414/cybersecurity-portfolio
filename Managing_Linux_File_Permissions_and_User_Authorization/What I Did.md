@@ -1,4 +1,6 @@
-#Managing Linux File Permissions & User Authorization
+# Managing Linux File Permissions & User Authorization
+
+* **Scenario:** As a security professional working with an organization's research team, the system's current file and directory permissions did not align with the strict authorization requirements needed to keep sensitive data secure. The goal was to audit the existing file system permissions, identify misconfigurations, and modify them to ensure proper access control.
 
 ### Step by Step Implementation
 
