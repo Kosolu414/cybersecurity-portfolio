@@ -1,3 +1,5 @@
+#Managing Linux File Permissions & User Authorization
+
 ### Step by Step Implementation
 
 * **Phase 1:** Auditing the File SystemAction: Navigated to the targeted directory (e.g., /home/researcher2/projects) and ran the ls -la command to expose all files, subdirectories, and hidden files (like .project_x.txt).  
