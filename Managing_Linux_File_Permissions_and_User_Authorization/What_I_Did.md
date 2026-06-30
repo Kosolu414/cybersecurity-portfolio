@@ -20,4 +20,4 @@
 * **System Hardening:** Mitigated risks of internal unauthorized data manipulation or malicious script execution by revoking unnecessary execute ($x$) rights on files and directories.
 * **Compliance:** Realigned the directory structures with organizational security policies.
 
-* **[👉 View File permissions Report](./Managing_Linux_File_Permissions_and_User_Authorization)*** 
+* **[👉 View File permissions Report](./Managing_Linux_File_Permissions_and_User_Authorization/File_permissions_in_Linux.pdf)*** 
