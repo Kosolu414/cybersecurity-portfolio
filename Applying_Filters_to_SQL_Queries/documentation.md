@@ -27,7 +27,7 @@ Depending on the investigative objective, utilize logical operators (`AND`, `OR`
 * **`AND`**
 * *Use Case:* When all defined criteria must simultaneously be met.
 * *Code Application:* To isolate failed login attempts that occurred strictly after hours:
-```sql
+```
 WHERE login_time > '18:00' AND success = FALSE;
 ```
 > *"By filtering for `login_time > '18:00' AND success = FALSE`, I successfully minimized alert fatigue by eliminating thousands of standard daytime events, allowing the security team to focus exclusively on high-risk, after-hours brute force attempts."*
