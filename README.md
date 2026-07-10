@@ -1,5 +1,3 @@
-# cybersecurity-portfolio
-
 # Kosolu Peter Madueke's Cybersecurity Portfolio 🛡️
 
 Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting. This portfolio showcases my hands-on technical skills, lab environments, and security research.
