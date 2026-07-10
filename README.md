@@ -32,7 +32,7 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 ### 3. Applying Filters to SQL Queries
 * **Objective:** To investigate all potential security issues, ensure the system is safe, and update employee computers as needed.
 * **Tools Used:** Linux (Ubuntu), Bash (CLI).
-* **[👉 View Full Write-up](./Applying_Filters_to_SQL_Queries)***
+* **[👉 View Full Write-up](./Applying_Filters_to_SQL_Queries/documentation.md)***
 
 ---
 
