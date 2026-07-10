@@ -54,12 +54,7 @@ When dealing with inconsistent text strings or partial entries, leverage the `LI
 * *Code Application:* To catch all variations of a country label (e.g., 'MEX' and 'MEXICO') while excluding them from the results:
 ```sql
 WHERE NOT country LIKE 'MEX%';
-```[cite: 1]
-
-
 ```
-
-
 
 ### Step 5: Execute and Validate Results
 
@@ -67,4 +62,4 @@ Run the complete query to extract the targeted subset of data. Verify that the o
 
 ---
 
-* **[👉 View File permissions Report](./Apply_filters_to_SQL_queries.pdf)*** 
+* **[👉 View Documentation Report](./Apply_filters_to_SQL_queries.pdf)*** 
