@@ -27,7 +27,7 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 * **Objective:** To modify file permissions on standard and hidden files to enforce the principle of least privilege.
 * **Tools Used:** Linux (Ubuntu), Bash (CLI).
 * **What I Did:** Audited the file system, provided a remedy for unauthorized access, validation.
-* **[👉 View Full Write-up](./Managing_Linux_File_Permissions_and_User_Authorization)*** 
+* **[👉 View Full Write-up](./Managing_Linux_File_Permissions_and_User_Authorization/documentation.md)*** 
 
 ### 3. Applying Filters to SQL Queries
 * **Objective:** To investigate all potential security issues, ensure the system is safe, and update employee computers as needed.
