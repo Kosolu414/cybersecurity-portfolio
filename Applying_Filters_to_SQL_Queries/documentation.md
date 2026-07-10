@@ -24,10 +24,8 @@ Append the `WHERE` clause immediately after the `FROM` statement. This instructs
 
 Depending on the investigative objective, utilize logical operators (`AND`, `OR`, `NOT`) to isolate specific data patterns:
 
-* **Isolating Compound Conditions (`AND`)**
+* **`AND`**
 * *Use Case:* When all defined criteria must simultaneously be met.
-
-
 * *Code Application:* To isolate failed login attempts that occurred strictly after hours:
 ```sql
 WHERE login_time > '18:00' AND success = FALSE;
@@ -35,38 +33,19 @@ WHERE login_time > '18:00' AND success = FALSE;
 > *"By filtering for `login_time > '18:00' AND success = FALSE`, I successfully minimized alert fatigue by eliminating thousands of standard daytime events, allowing the security team to focus exclusively on high-risk, after-hours brute force attempts."*
 >
 
-
-
-* **Expanding Scope Across Alternatives (`OR`)**
+* **`OR`**
 * *Use Case:* When a record is considered relevant if it matches any one of multiple criteria.
-
-
 * *Code Application:* To audit system access across a specific multi-day window:
 ```sql
 WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
-```[cite: 1]
-
-
 ```
 
-
-
-
-* **Excluding Baseline Data (`NOT`)**
+* **`NOT`**
 * *Use Case:* When you need to filter out known-safe or irrelevant records to highlight anomalies.
-
-
 * *Code Application:* To isolate non-IT personnel for targeted department audits:
 ```sql
 WHERE NOT department = 'Information Technology';
-```[cite: 1]
-
-
 ```
-
-
-
-
 
 ### Step 4: Implement Wildcards for Dynamic Pattern Matching
 
