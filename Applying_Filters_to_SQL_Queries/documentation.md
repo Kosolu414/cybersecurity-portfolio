@@ -1,29 +1,21 @@
 # Applying Filters to SQL Queries
 
-* **Scenario:** As a security professional at a large organization. Part of the job is to investigate security issues to help keep the system secure. I recently discovered some potential security issues that involve login attempts and employee machines.
-
-My task is to examine the organization’s data in their employees and log_in_attempts tables. I’ll need to use SQL filters to retrieve records from different datasets and investigate the potential security issues.
-
-## Step-by-step Implementation of SQL Filters
-
-That’s awesome! A portfolio project showcasing SQL filtering is highly valuable because it proves you know how to handle real-world data triage and security investigations.
-
-To help make this portfolio-ready, I have structured the implementation steps below into a clean, professional **"Technical Workflow"** format. You can copy and paste this directly into your GitHub README or project documentation.
+## Scenario: As a security professional at a large organization. Part of the job is to investigate security issues to help keep the system secure. I recently discovered some potential security issues that involve login attempts and employee machines. My task is to examine the organization’s data in their employees and log_in_attempts tables. I’ll need to use SQL filters to retrieve records from different datasets and investigate the potential security issues.
 
 ---
 
 ## Technical Workflow: Implementing SQL Filters for Security Analysis
 
-### Step 1: Formulate the Base Query
+### Step 1: The Base Query
 
-Begin by identifying the target table and specifying the columns required for the investigation. For comprehensive security log analysis, select all columns to maintain full context.
+Identifying the target table and specifying the columns required for the investigation. For comprehensive security log analysis, select all columns to maintain full context.
 
 * **Syntax:** `SELECT * FROM table_name;`
 
 * **Portfolio Example:** `SELECT * FROM log_in_attempts;`
 
 
-### Step 2: Initialize Data Filtering with `WHERE`
+### Step 2: Initializing Data Filtering with `WHERE`
 
 Append the `WHERE` clause immediately after the `FROM` statement. This instructs the database engine to evaluate row-level conditions rather than returning the entire dataset.
 
