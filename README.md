@@ -4,7 +4,7 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 
 ## 🔗 Connect with Me
 * **LinkedIn:** https://www.linkedin.com/in/kosolu-madueke-7bb1a1367/?skipRedirect=true
-* **TryHackMe / HackTheBox:** https://www.google.com
+* **TryHackMe / HackTheBox:** https://tryhackme.com/p/maduekekosolu
 
 ---
 
