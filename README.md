@@ -38,4 +38,5 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 
 ## 📜 Certifications & Education
 * **CompTIA Security+** (In Progress)
+* * **Google Cybersecurity Professional Certificate** Coursera
 * **B.Sc. in Computer Science** - Nnamdi Azikiwe University, Anambra, Nigeria. (2019 - 2023)
