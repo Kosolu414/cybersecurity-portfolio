@@ -1,6 +1,14 @@
-# Kosolu Peter Madueke's Cybersecurity Portfolio 🛡️
+# Cybersecurity Portfolio — Kosolu Peter Madueke 🛡️
 
-Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting. This portfolio showcases my hands-on technical skills, lab environments, and security research.
+Aspiring Blue Team and SOC Analyst professional with a B.Sc. in Computer Science and the Google Cybersecurity Professional Certificate.
+
+This portfolio documents my hands-on learning in security monitoring, log analysis, incident response, network traffic analysis, Linux access controls, vulnerability assessment, and security automation.
+
+Technical tools: Wireshark, Wazuh, Splunk, Snort, Linux, SQL, and Python.
+
+Career goal: Junior SOC Analyst / Security Operations Analyst.
+
+My projects focus on investigating security events, documenting evidence, explaining findings, and recommending practical defensive actions. Each project identifies its learning environment, methodology, results, and limitations.
 
 ## 🔗 Connect with Me
 * **LinkedIn:** https://www.linkedin.com/in/kosolu-madueke-7bb1a1367/?skipRedirect=true
@@ -18,6 +26,12 @@ Welcome! I am an aspiring Cybersecurity Professional focusing on Threat Hunting.
 ## 🚀 Featured Projects
 
 ### 1. Network Traffic Analysis & Malware Triage
+* **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
+* **Tools Used:** Wireshark.
+* **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
+* **[👉 View Full Write-up](./)**
+
+### 2. Network Traffic Analysis & Malware Triage
 * **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
 * **Tools Used:** Wireshark.
 * **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
