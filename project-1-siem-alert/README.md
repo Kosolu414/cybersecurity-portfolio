@@ -27,7 +27,7 @@ Deploy a centralized Wazuh SIEM virtual appliance, register a Windows endpoint a
 * **Log Channel:** Security (`Microsoft-Windows-Security-Auditing`)
 
 ### 3. Dashboard Evidence
-![Wazuh Dashboard Overview](./wazuh-dashboard.png)
+![Wazuh Dashboard Overview](./wazuh-dashboard.PNG)
 
 ---
 
