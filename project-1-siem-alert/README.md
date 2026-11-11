@@ -32,8 +32,8 @@ Deploy a centralized Wazuh SIEM virtual appliance, register a Windows endpoint a
 ---
 
 ## 🏷️ Severity Assessment & Classification
-* **Assessed Severity:** **Low** 
-* **Classification:** **Controlled Test Activity**
+* **Assessed Severity:** **Low** (Rule level mapping for controlled single event or low frequency authentication test).
+* **Classification:** **Controlled Test Activity** (Generated locally for testing detection rules).
 * **Justification:** The authentication failures were triggered intentionally via local PowerShell commands (`net use`) as part of a verification test for detection engineering, rather than an active malicious external threat campaign.
 
 ---
