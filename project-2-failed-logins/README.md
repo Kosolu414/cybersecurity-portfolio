@@ -36,12 +36,12 @@ Perform deep-dive forensic analysis on raw Windows Security Event Logs (`Event I
 ## 📊 Key Windows Event ID 4625 Reference Table
 
 | Field Name | Scenario A Value | Scenario B Value | Forensic Significance |
+| :--- | :--- | :--- | :--- |
 | **TargetUserName** | `Administrator` | `HackerAccount` | Identifies targeted user identity. |
 | **LogonType** | `3` | `3` | Differentiates local console logins (`2`) from network/RDP access (`3`/`10`). |
 | **SubStatus** | `0xC000006A` | `0xC0000064` | Distinguishes wrong passwords from invalid usernames. |
 
 ---
-
 ## 🛡️ Incident Response & Mitigation Playbook
 1. **Differentiate Attack Types:** Prioritize alerts displaying `0xC000006A` on critical accounts over random `0xC0000064` noise.
 2. **Implement Network Segmentation:** Restrict SMB (Port 445) and RDP (Port 3389) exposure to untrusted networks.
