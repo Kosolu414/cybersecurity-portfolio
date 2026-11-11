@@ -17,7 +17,7 @@ Perform deep-dive forensic analysis on raw Windows Security Event Logs (`Event I
 
 ### Scenario A: Authentication Failure on Existing Account
 * **Target User:** `Administrator`
-* **Logon Type:** `3` (Network Logon via SMB/Network Resource)
+* **Logon Type:** `3` (Network Logon)
 * **SubStatus Code:** `0xC000006A` (User name is valid, but bad password)
 * **Source IP:** `127.0.0.1`
 * **Analyst Note:** Indicates potential targeted credential guessing against a known high-privilege account.
@@ -34,7 +34,6 @@ Perform deep-dive forensic analysis on raw Windows Security Event Logs (`Event I
 ## 📊 Key Windows Event ID 4625 Reference Table
 
 | Field Name | Scenario A Value | Scenario B Value | Forensic Significance |
-| :--- | :--- | :--- | :--- |
 | **TargetUserName** | `Administrator` | `HackerAccount` | Identifies targeted user identity. |
 | **LogonType** | `3` | `3` | Differentiates local console logins (`2`) from network/RDP access (`3`/`10`). |
 | **SubStatus** | `0xC000006A` | `0xC0000064` | Distinguishes wrong passwords from invalid usernames. |
