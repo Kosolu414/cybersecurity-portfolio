@@ -33,12 +33,12 @@ Deploy a centralized Wazuh SIEM virtual appliance, register a Windows endpoint a
 
 ## 🏷️ Severity Assessment & Classification
 * **Assessed Severity:** **Low** 
-* **Classification:** **Benign / Controlled Test Activity**
+* **Classification:** **Controlled Test Activity**
 * **Justification:** The authentication failures were triggered intentionally via local PowerShell commands (`net use`) as part of a verification test for detection engineering, rather than an active malicious external threat campaign.
 
 ---
 
 ## 🛡️ Remediation & Recommendations
 As a Tier-1 SOC Analyst, the following containment and hardening steps are recommended following this event:
-1. **Threshold Monitoring:** Monitor for rapid spikes of Event ID 4625 originating from external or suspicious IP addresses to identify active password-spraying or brute-force attacks.
-2. **Account Lockout Policies:** Enforce a strict account lockout policy (e.g., locking user accounts after 5 consecutive failed login attempts within
+1. **Threshold Monitoring:** Monitor for repeated authentication failures origination from external IPs.
+2. **Account Lockout Policies:** Enforce a strict account lockout policy (e.g., locking user accounts after 5 consecutive failed login attempts).
