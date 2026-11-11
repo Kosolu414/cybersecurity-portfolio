@@ -25,17 +25,26 @@ My projects focus on investigating security events, documenting evidence, explai
 
 ## 🚀 Featured Projects
 
-### 1. Network Traffic Analysis & Malware Triage
-* **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
-* **Tools Used:** Wireshark.
-* **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
-* **[👉 View Full Write-up](./)**
+### 1. SIEM Alert Investigation
+* **Objective:** Investigate and document a simulated brute-force authentication failure on a Windows endpoint using Wazuh SIEM.
+* **Tools Used:** Wazuh, Windows event log, PowerShell.
+* **Incident Details:**
+* Alert Name: Logon Failure - Unknown user or bad password.
+* Description: An account failed to log on (Windows Event ID 4625).
+* Timestamp: Nov 11, 2026 @ 01:58:07.819
+* Agent Name: Kosolu
+* Source IP: 127.0.0.1
+* Target Username: InvalidUser
 
-### 2. Network Traffic Analysis & Malware Triage
-* **Objective:** Analyze a packet capture (`.pcap`) file to identify a simulated malware infection network-side, using the NIST cybersecurity framework to respond to a security incident.
-* **Tools Used:** Wireshark.
-* **What I Did:** Isolated the malicious IP addresses, traced the unencrypted HTTP requests downloading the payload, and extracted the file hash to confirm the malware family.
-* **[👉 View Full Write-up](./)**
+* **Severity & Classification:**
+* Severity: Low (Rule level mapping for controlled single event or low frequency authentication test).
+* Classification: Controlled Simulation (Generated locally for testing detection rules).
+
+* **Recommendations:**
+* 1. Monitor for repeated authentication failures origination from external IPs.
+  2. Enforce account lockout thresholds (e.g., lock account after 5 consecutive failed attempts).
+  3. Review Windows security event auditing policies.
+* **[👉 View Full Write-up](./project-1-siem-alert/)**
 
 ### 2. Using Linux commands to manage file permissions
 * **Objective:** To modify file permissions on standard and hidden files to enforce the principle of least privilege.
