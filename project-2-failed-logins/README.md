@@ -29,6 +29,8 @@ Perform deep-dive forensic analysis on raw Windows Security Event Logs (`Event I
 * **Source IP:** `127.0.0.1`
 * **Analyst Note:** Indicates potential automated user enumeration or brute-forcing using dictionary wordlists.
 
+![Event Viewer 4625 Breakdown](./event-viewer-4625.png)
+
 ---
 
 ## 📊 Key Windows Event ID 4625 Reference Table
